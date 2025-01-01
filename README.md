@@ -128,7 +128,7 @@ The following steps detail how to set up and execute the system.
    - Verify the API Gateway endpoint and ensure it is deployed to a stage.
 
 3. **Syntax Errors in `validate.js`**:
-   - Ensure all `await` statements are inside `async` functions.
+   - Ensure all `await` statements are inside `async` functions.( it's working in this repo no worries !! )
 
 4. **Data Not Loaded into Hazelcast**:
    - Check S3 triggers and CloudWatch logs for issues.
